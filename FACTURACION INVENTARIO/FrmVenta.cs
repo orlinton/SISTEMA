@@ -44,5 +44,10 @@ namespace FACTURACION_INVENTARIO
             txthora.Text = DateTime.Now.ToString("hh:mm:ss");
             txtFecha.Text = DateTime.Now.ToShortDateString();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

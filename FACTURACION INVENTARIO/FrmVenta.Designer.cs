@@ -53,7 +53,9 @@ namespace FACTURACION_INVENTARIO
             this.txtFecha = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVenta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -78,7 +80,7 @@ namespace FACTURACION_INVENTARIO
             this.dataGridViewVenta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewVenta.Location = new System.Drawing.Point(12, 417);
             this.dataGridViewVenta.Name = "dataGridViewVenta";
-            this.dataGridViewVenta.Size = new System.Drawing.Size(859, 183);
+            this.dataGridViewVenta.Size = new System.Drawing.Size(369, 183);
             this.dataGridViewVenta.TabIndex = 2;
             // 
             // textBox2
@@ -256,11 +258,21 @@ namespace FACTURACION_INVENTARIO
             this.textBox3.Size = new System.Drawing.Size(108, 20);
             this.textBox3.TabIndex = 25;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(554, 417);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.TabIndex = 27;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
             // FrmVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(896, 612);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.txtFecha);
@@ -288,6 +300,7 @@ namespace FACTURACION_INVENTARIO
             this.Text = "FrmVenta";
             this.Load += new System.EventHandler(this.FrmVenta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVenta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -318,5 +331,6 @@ namespace FACTURACION_INVENTARIO
         private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
