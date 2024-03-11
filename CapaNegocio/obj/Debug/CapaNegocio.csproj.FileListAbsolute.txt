@@ -1,0 +1,28 @@
+D:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.pdb
+E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaNegocio.dll
+E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaNegocio.pdb
+E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaDatos.dll
+E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaEntidad.dll
+E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaDatos.pdb
+E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaEntidad.pdb
+E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.dll
+E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.pdb
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaNegocio.dll
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaNegocio.pdb
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaDatos.dll
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaEntidad.dll
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaDatos.pdb
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\bin\Debug\CapaEntidad.pdb
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.dll
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.pdb

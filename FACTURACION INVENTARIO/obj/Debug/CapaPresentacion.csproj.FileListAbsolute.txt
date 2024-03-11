@@ -1,0 +1,39 @@
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\bin\Debug\FACTURACION INVENTARIO.exe.config
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\bin\Debug\FACTURACION INVENTARIO.exe
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\bin\Debug\FACTURACION INVENTARIO.pdb
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\bin\Debug\CapaNegocio.dll
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\bin\Debug\CapaDatos.dll
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\bin\Debug\CapaNegocio.pdb
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\bin\Debug\CapaDatos.pdb
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION_INVENTARIO.FrmLogin.resources
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION_INVENTARIO.FrmPrincipal.resources
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION_INVENTARIO.FrmProducto.resources
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION_INVENTARIO.Properties.Resources.resources
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION INVENTARIO.exe
+C:\Users\saave\source\repos\FACTURACION-INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION INVENTARIO.pdb
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\bin\Debug\FACTURACION INVENTARIO.exe.config
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\bin\Debug\FACTURACION INVENTARIO.exe
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\bin\Debug\FACTURACION INVENTARIO.pdb
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\bin\Debug\CapaNegocio.dll
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\bin\Debug\CapaDatos.dll
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\bin\Debug\CapaNegocio.pdb
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\bin\Debug\CapaDatos.pdb
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION_INVENTARIO.FrmLogin.resources
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION_INVENTARIO.FrmPrincipal.resources
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION_INVENTARIO.FrmProducto.resources
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION_INVENTARIO.Properties.Resources.resources
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\CapaPresentacion.csproj.CopyComplete
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION INVENTARIO.exe
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION INVENTARIO.pdb
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\bin\Debug\CapaEntidad.dll
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\bin\Debug\CapaEntidad.pdb
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION_INVENTARIO.FrmVenta.resources
+E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\FACTURACION INVENTARIO\obj\Debug\FACTURACION_INVENTARIO.FrmBuscarProducto.resources
