@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FACTURACION_INVENTARIO
 {
-    public partial class FrmBuscarProducto : Form
+    public partial class FrmProveedores : Form
     {
-        public FrmBuscarProducto()
+        public FrmProveedores()
         {
             InitializeComponent();
         }
