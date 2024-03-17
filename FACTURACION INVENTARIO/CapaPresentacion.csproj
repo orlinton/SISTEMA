@@ -70,6 +70,12 @@
     <Compile Include="FrmProveedores.Designer.cs">
       <DependentUpon>FrmProveedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmReporteProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReporteProducto.Designer.cs">
+      <DependentUpon>FrmReporteProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmVenta.cs">
       <SubType>Form</SubType>
     </Compile>
