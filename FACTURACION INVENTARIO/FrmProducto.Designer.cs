@@ -59,6 +59,8 @@ namespace FACTURACION_INVENTARIO
             this.label3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.txtUbicacion = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProducto)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -135,6 +137,8 @@ namespace FACTURACION_INVENTARIO
             // groupBox2
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.txtUbicacion);
+            this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.txtCodigo);
             this.groupBox2.Controls.Add(this.txtPrecio);
             this.groupBox2.Controls.Add(this.txtCantidad);
@@ -363,6 +367,22 @@ namespace FACTURACION_INVENTARIO
             this.label9.TabIndex = 20;
             this.label9.Text = "Fecha Vencimiento";
             // 
+            // txtUbicacion
+            // 
+            this.txtUbicacion.Location = new System.Drawing.Point(20, 45);
+            this.txtUbicacion.Name = "txtUbicacion";
+            this.txtUbicacion.Size = new System.Drawing.Size(100, 24);
+            this.txtUbicacion.TabIndex = 27;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(30, 24);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(74, 18);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "Ubicacion";
+            // 
             // FrmProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -422,5 +442,7 @@ namespace FACTURACION_INVENTARIO
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtUbicacion;
+        private System.Windows.Forms.Label label13;
     }
 }

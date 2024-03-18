@@ -9,25 +9,17 @@ using CapaEntidad; // Importa el espacio de nombres de la capa de entidad
 
 namespace CapaNegocio
 {
-    class CN_Venta
+    public class CN_Venta
     {
-        // Método para realizar una venta
-        public int RealizarVenta(int idCliente, int idEmpleado, int idProducto, int cantidad, decimal precioUnitario, string nota)
-        {
-            try
-            {
-                // Instancia del objeto de la capa de datos
-                CD_Venta cdVenta = new CD_Venta();
 
-                // Llamar al método de la capa de datos para realizar la venta
-                return cdVenta.RealizarVenta(idCliente, idEmpleado, idProducto, cantidad, precioUnitario, nota);
-            }
-            catch (Exception ex)
-            {
-                // Manejar la excepción si ocurre algún error
-                Console.WriteLine("Error al realizar la venta: " + ex.Message);
-                return -1; // Retorna un valor negativo para indicar un error
-            }
+        private CD_Venta capaDatosVenta = new CD_Venta();
+
+        public void InsertarVentaCompleta(CE_Venta venta)
+        {
+            // Aquí podrías realizar alguna validación de la venta antes de insertarla en la base de datos
+
+            // Llama al método de la capa de datos para insertar la venta completa
+            capaDatosVenta.InsertarVentaCompleta(venta.Fecha, venta.IdCliente, venta.IdEmpleado, venta.Total, venta.IdProducto, venta.Cantidad, venta.PrecioUnitario, venta.Subtotal);
         }
     }
 }

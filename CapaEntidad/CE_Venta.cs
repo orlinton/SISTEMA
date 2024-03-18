@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    class CE_Venta
+    public class CE_Venta
     {
-        public int Id_venta { get; set; }
+        // Propiedades de la venta
+        
         public DateTime Fecha { get; set; }
-        public TimeSpan Hora { get; set; }
-        public int Id_cliente { get; set; }
-        public int Id_empleado { get; set; }
-        public string Nota { get; set; }
+        public int IdCliente { get; set; }
+        public int IdEmpleado { get; set; }
         public decimal Total { get; set; }
+        public int IdProducto { get; set; }
+        public int Cantidad { get; set; }
+        public decimal PrecioUnitario { get; set; }
+        public decimal Subtotal { get; set; }
     }
 }

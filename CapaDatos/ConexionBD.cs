@@ -10,7 +10,7 @@ namespace CapaDatos
 {
     public class ConexionBD
     {
-        static private string CadenaConexion = "Data Source=DESKTOP-JOJRB03\\SQLEXPRESS;Initial Catalog=BDventa;User ID=PC;Password=password;";
+        static private string CadenaConexion = "Data Source=DESKTOP-JOJRB03\\SQLEXPRESS;Initial Catalog=BDVENTA;User ID=PC;Password=password;";
         private SqlConnection Conexion = new SqlConnection(CadenaConexion);
         public SqlConnection AbrirConexion()
         {

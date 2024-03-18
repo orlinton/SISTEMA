@@ -35,7 +35,7 @@ namespace FACTURACION_INVENTARIO
             this.panel10 = new System.Windows.Forms.Panel();
             this.btnsalir2 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.btnCompra = new System.Windows.Forms.Button();
+            this.btnProveedores = new System.Windows.Forms.Button();
             this.SubmenuReportes = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
@@ -85,7 +85,7 @@ namespace FACTURACION_INVENTARIO
             this.panel1.Controls.Add(this.panel10);
             this.panel1.Controls.Add(this.btnsalir2);
             this.panel1.Controls.Add(this.panel11);
-            this.panel1.Controls.Add(this.btnCompra);
+            this.panel1.Controls.Add(this.btnProveedores);
             this.panel1.Controls.Add(this.SubmenuReportes);
             this.panel1.Controls.Add(this.panel9);
             this.panel1.Controls.Add(this.btnReportes);
@@ -157,27 +157,27 @@ namespace FACTURACION_INVENTARIO
             this.panel11.Size = new System.Drawing.Size(4, 26);
             this.panel11.TabIndex = 26;
             // 
-            // btnCompra
+            // btnProveedores
             // 
-            this.btnCompra.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnProveedores.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnCompra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnCompra.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCompra.FlatAppearance.BorderSize = 0;
-            this.btnCompra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCompra.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCompra.ForeColor = System.Drawing.Color.White;
-            this.btnCompra.Image = ((System.Drawing.Image)(resources.GetObject("btnCompra.Image")));
-            this.btnCompra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCompra.Location = new System.Drawing.Point(2, 221);
-            this.btnCompra.Name = "btnCompra";
-            this.btnCompra.Size = new System.Drawing.Size(221, 26);
-            this.btnCompra.TabIndex = 25;
-            this.btnCompra.Text = "Proveedores";
-            this.btnCompra.UseVisualStyleBackColor = false;
-            this.btnCompra.Click += new System.EventHandler(this.btnCompra_Click);
+            this.btnProveedores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnProveedores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnProveedores.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnProveedores.FlatAppearance.BorderSize = 0;
+            this.btnProveedores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProveedores.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProveedores.ForeColor = System.Drawing.Color.White;
+            this.btnProveedores.Image = ((System.Drawing.Image)(resources.GetObject("btnProveedores.Image")));
+            this.btnProveedores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProveedores.Location = new System.Drawing.Point(2, 221);
+            this.btnProveedores.Name = "btnProveedores";
+            this.btnProveedores.Size = new System.Drawing.Size(221, 26);
+            this.btnProveedores.TabIndex = 25;
+            this.btnProveedores.Text = "Proveedores";
+            this.btnProveedores.UseVisualStyleBackColor = false;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
             // 
             // SubmenuReportes
             // 
@@ -373,6 +373,7 @@ namespace FACTURACION_INVENTARIO
             this.btnInventario.TabIndex = 18;
             this.btnInventario.Text = "Inventario";
             this.btnInventario.UseVisualStyleBackColor = false;
+            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
             // 
             // panel6
             // 
@@ -433,6 +434,7 @@ namespace FACTURACION_INVENTARIO
             this.btnCliente.TabIndex = 14;
             this.btnCliente.Text = "Cliente";
             this.btnCliente.UseVisualStyleBackColor = false;
+            this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
             // 
             // panel4
             // 
@@ -671,7 +673,7 @@ namespace FACTURACION_INVENTARIO
         private System.Windows.Forms.Button btnVenta;
         private System.Windows.Forms.Panel SubmenuReportes;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Button btnCompra;
+        private System.Windows.Forms.Button btnProveedores;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Button btnrptventa;
         private System.Windows.Forms.Panel panel14;
