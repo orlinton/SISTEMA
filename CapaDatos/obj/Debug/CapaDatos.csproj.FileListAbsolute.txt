@@ -22,3 +22,12 @@ E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaDatos\bin\Debug\CapaD
 E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaDatos\bin\Debug\CapaEntidad.dll
 E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaDatos\bin\Debug\CapaEntidad.pdb
 E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\saave\Source\Repos\SISTEMA\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\saave\Source\Repos\SISTEMA\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\saave\Source\Repos\SISTEMA\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\saave\Source\Repos\SISTEMA\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\saave\Source\Repos\SISTEMA\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\saave\Source\Repos\SISTEMA\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\saave\Source\Repos\SISTEMA\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\saave\Source\Repos\SISTEMA\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\saave\Source\Repos\SISTEMA\CapaDatos\obj\Debug\CapaDatos.pdb

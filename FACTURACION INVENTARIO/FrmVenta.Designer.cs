@@ -31,17 +31,22 @@ namespace FACTURACION_INVENTARIO
         {
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtEmpleado = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.cmbCliente = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtEfectivo = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtTotal = new System.Windows.Forms.TextBox();
-            this.btnCrearVenta = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txthora = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.txtFecha = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtCambio = new System.Windows.Forms.TextBox();
             this.dataGridViewCarrito = new System.Windows.Forms.DataGridView();
@@ -55,19 +60,17 @@ namespace FACTURACION_INVENTARIO
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.txtSubtotal = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtCantidadVenta = new System.Windows.Forms.TextBox();
-            this.txtSubtotal = new System.Windows.Forms.TextBox();
             this.txtproducto = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtCantidad = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtIdProducto = new System.Windows.Forms.TextBox();
             this.btnBuscarProducto = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
-            this.dateTimeventa = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCarrito)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -84,12 +87,12 @@ namespace FACTURACION_INVENTARIO
             this.label1.TabIndex = 0;
             this.label1.Text = "Formulario de ventas";
             // 
-            // txtEmpleado
+            // textBox2
             // 
-            this.txtEmpleado.Location = new System.Drawing.Point(167, 63);
-            this.txtEmpleado.Name = "txtEmpleado";
-            this.txtEmpleado.Size = new System.Drawing.Size(118, 20);
-            this.txtEmpleado.TabIndex = 3;
+            this.textBox2.Location = new System.Drawing.Point(167, 63);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(118, 20);
+            this.textBox2.TabIndex = 3;
             // 
             // cmbCliente
             // 
@@ -109,6 +112,17 @@ namespace FACTURACION_INVENTARIO
             this.label2.Size = new System.Drawing.Size(59, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "Fecha";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label3.Location = new System.Drawing.Point(563, 59);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 20);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Hora:";
             // 
             // label4
             // 
@@ -130,13 +144,22 @@ namespace FACTURACION_INVENTARIO
             this.label6.TabIndex = 11;
             this.label6.Text = "Codigo Empleado";
             // 
-            // txtEfectivo
+            // label7
             // 
-            this.txtEfectivo.Location = new System.Drawing.Point(116, 380);
-            this.txtEfectivo.Name = "txtEfectivo";
-            this.txtEfectivo.Size = new System.Drawing.Size(108, 20);
-            this.txtEfectivo.TabIndex = 16;
-            this.txtEfectivo.TextChanged += new System.EventHandler(this.txtEfectivo_TextChanged);
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(356, 19);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(96, 20);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Nota venta";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(116, 380);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(108, 20);
+            this.textBox5.TabIndex = 16;
             // 
             // label9
             // 
@@ -152,29 +175,53 @@ namespace FACTURACION_INVENTARIO
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(552, 393);
+            this.label10.Location = new System.Drawing.Point(522, 21);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(49, 20);
             this.label10.TabIndex = 19;
             this.label10.Text = "Total";
             // 
-            // txtTotal
+            // textBox6
             // 
-            this.txtTotal.Location = new System.Drawing.Point(607, 393);
-            this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(108, 20);
-            this.txtTotal.TabIndex = 18;
+            this.textBox6.Location = new System.Drawing.Point(577, 21);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(108, 20);
+            this.textBox6.TabIndex = 18;
             // 
-            // btnCrearVenta
+            // button1
             // 
-            this.btnCrearVenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrearVenta.Location = new System.Drawing.Point(749, 429);
-            this.btnCrearVenta.Name = "btnCrearVenta";
-            this.btnCrearVenta.Size = new System.Drawing.Size(135, 28);
-            this.btnCrearVenta.TabIndex = 20;
-            this.btnCrearVenta.Text = "Crear venta";
-            this.btnCrearVenta.UseVisualStyleBackColor = true;
-            this.btnCrearVenta.Click += new System.EventHandler(this.btnCrearVenta_Click);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(749, 429);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(135, 28);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Crear venta";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(458, 19);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(189, 20);
+            this.textBox7.TabIndex = 22;
+            // 
+            // txthora
+            // 
+            this.txthora.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txthora.Location = new System.Drawing.Point(622, 57);
+            this.txthora.Name = "txthora";
+            this.txthora.ReadOnly = true;
+            this.txthora.Size = new System.Drawing.Size(108, 22);
+            this.txthora.TabIndex = 23;
+            // 
+            // txtFecha
+            // 
+            this.txtFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFecha.Location = new System.Drawing.Point(405, 59);
+            this.txtFecha.Name = "txtFecha";
+            this.txtFecha.ReadOnly = true;
+            this.txtFecha.Size = new System.Drawing.Size(108, 22);
+            this.txtFecha.TabIndex = 24;
             // 
             // label8
             // 
@@ -190,7 +237,6 @@ namespace FACTURACION_INVENTARIO
             // 
             this.txtCambio.Location = new System.Drawing.Point(381, 383);
             this.txtCambio.Name = "txtCambio";
-            this.txtCambio.ReadOnly = true;
             this.txtCambio.Size = new System.Drawing.Size(108, 20);
             this.txtCambio.TabIndex = 25;
             // 
@@ -241,10 +287,12 @@ namespace FACTURACION_INVENTARIO
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.txtEmpleado);
+            this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.cmbCliente);
             this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.groupBox1.Location = new System.Drawing.Point(25, 89);
             this.groupBox1.Name = "groupBox1";
@@ -255,12 +303,12 @@ namespace FACTURACION_INVENTARIO
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label14);
             this.groupBox3.Controls.Add(this.label13);
             this.groupBox3.Controls.Add(this.txtPrecio);
             this.groupBox3.Controls.Add(this.label12);
+            this.groupBox3.Controls.Add(this.textBox6);
             this.groupBox3.Controls.Add(this.txtCantidadVenta);
-            this.groupBox3.Controls.Add(this.txtSubtotal);
+            this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Location = new System.Drawing.Point(25, 291);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(836, 86);
@@ -272,7 +320,7 @@ namespace FACTURACION_INVENTARIO
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(508, 27);
+            this.label14.Location = new System.Drawing.Point(519, 393);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(77, 20);
             this.label14.TabIndex = 29;
@@ -294,7 +342,13 @@ namespace FACTURACION_INVENTARIO
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(108, 20);
             this.txtPrecio.TabIndex = 26;
-            this.txtPrecio.TextChanged += new System.EventHandler(this.txtPrecio_TextChanged);
+            // 
+            // txtSubtotal
+            // 
+            this.txtSubtotal.Location = new System.Drawing.Point(602, 391);
+            this.txtSubtotal.Name = "txtSubtotal";
+            this.txtSubtotal.Size = new System.Drawing.Size(108, 20);
+            this.txtSubtotal.TabIndex = 28;
             // 
             // label12
             // 
@@ -312,14 +366,6 @@ namespace FACTURACION_INVENTARIO
             this.txtCantidadVenta.Name = "txtCantidadVenta";
             this.txtCantidadVenta.Size = new System.Drawing.Size(108, 20);
             this.txtCantidadVenta.TabIndex = 24;
-            this.txtCantidadVenta.TextChanged += new System.EventHandler(this.txtCantidadVenta_TextChanged);
-            // 
-            // txtSubtotal
-            // 
-            this.txtSubtotal.Location = new System.Drawing.Point(591, 25);
-            this.txtSubtotal.Name = "txtSubtotal";
-            this.txtSubtotal.Size = new System.Drawing.Size(108, 20);
-            this.txtSubtotal.TabIndex = 28;
             // 
             // txtproducto
             // 
@@ -342,7 +388,6 @@ namespace FACTURACION_INVENTARIO
             // 
             this.txtCantidad.Location = new System.Drawing.Point(591, 40);
             this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.ReadOnly = true;
             this.txtCantidad.Size = new System.Drawing.Size(108, 20);
             this.txtCantidad.TabIndex = 22;
             // 
@@ -358,7 +403,6 @@ namespace FACTURACION_INVENTARIO
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.txtIdProducto);
             this.groupBox2.Controls.Add(this.btnBuscarProducto);
             this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.txtCodigo);
@@ -372,13 +416,6 @@ namespace FACTURACION_INVENTARIO
             this.groupBox2.TabIndex = 30;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "PRODUCTO";
-            // 
-            // txtIdProducto
-            // 
-            this.txtIdProducto.Location = new System.Drawing.Point(390, 14);
-            this.txtIdProducto.Name = "txtIdProducto";
-            this.txtIdProducto.Size = new System.Drawing.Size(30, 20);
-            this.txtIdProducto.TabIndex = 33;
             // 
             // btnBuscarProducto
             // 
@@ -408,32 +445,26 @@ namespace FACTURACION_INVENTARIO
             this.txtCodigo.Size = new System.Drawing.Size(108, 20);
             this.txtCodigo.TabIndex = 24;
             // 
-            // dateTimeventa
-            // 
-            this.dateTimeventa.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimeventa.Location = new System.Drawing.Point(405, 63);
-            this.dateTimeventa.Name = "dateTimeventa";
-            this.dateTimeventa.Size = new System.Drawing.Size(103, 20);
-            this.dateTimeventa.TabIndex = 32;
-            // 
             // FrmVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(896, 612);
-            this.Controls.Add(this.dateTimeventa);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.txtTotal);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.txtSubtotal);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dataGridViewCarrito);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtCambio);
-            this.Controls.Add(this.btnCrearVenta);
+            this.Controls.Add(this.txtFecha);
+            this.Controls.Add(this.txthora);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtEfectivo);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.Highlight;
@@ -456,17 +487,22 @@ namespace FACTURACION_INVENTARIO
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtEmpleado;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.ComboBox cmbCliente;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtEfectivo;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txtTotal;
-        private System.Windows.Forms.Button btnCrearVenta;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txthora;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtCambio;
         private System.Windows.Forms.DataGridView dataGridViewCarrito;
@@ -491,7 +527,5 @@ namespace FACTURACION_INVENTARIO
         private System.Windows.Forms.Button btnBuscarProducto;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox txtCodigo;
-        private System.Windows.Forms.TextBox txtIdProducto;
-        private System.Windows.Forms.DateTimePicker dateTimeventa;
     }
 }
