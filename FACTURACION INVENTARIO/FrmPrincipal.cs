@@ -27,7 +27,7 @@ namespace FACTURACION_INVENTARIO
                 btnCliente.Enabled = false;
                 btnProveedores.Enabled = false;
                 btnEmpleado.Enabled = false;
-                btnInventario.Enabled = false;
+               
                 btnCategoria.Enabled = false;
                 btnReportes.Enabled = false;              
             }

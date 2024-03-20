@@ -53,7 +53,11 @@ namespace FACTURACION_INVENTARIO
             this.txtNota = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmpleado)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -69,7 +73,7 @@ namespace FACTURACION_INVENTARIO
             // 
             // TxtnNombre
             // 
-            this.TxtnNombre.Location = new System.Drawing.Point(25, 86);
+            this.TxtnNombre.Location = new System.Drawing.Point(31, 35);
             this.TxtnNombre.Name = "TxtnNombre";
             this.TxtnNombre.Size = new System.Drawing.Size(100, 20);
             this.TxtnNombre.TabIndex = 1;
@@ -77,42 +81,42 @@ namespace FACTURACION_INVENTARIO
             // cmbRol
             // 
             this.cmbRol.FormattingEnabled = true;
-            this.cmbRol.Location = new System.Drawing.Point(453, 192);
+            this.cmbRol.Location = new System.Drawing.Point(456, 29);
             this.cmbRol.Name = "cmbRol";
             this.cmbRol.Size = new System.Drawing.Size(140, 21);
             this.cmbRol.TabIndex = 2;
             // 
             // TxtApellido
             // 
-            this.TxtApellido.Location = new System.Drawing.Point(143, 86);
+            this.TxtApellido.Location = new System.Drawing.Point(149, 35);
             this.TxtApellido.Name = "TxtApellido";
             this.TxtApellido.Size = new System.Drawing.Size(100, 20);
             this.TxtApellido.TabIndex = 3;
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(268, 87);
+            this.txtTelefono.Location = new System.Drawing.Point(274, 36);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(100, 20);
             this.txtTelefono.TabIndex = 4;
             // 
             // TxtCargo
             // 
-            this.TxtCargo.Location = new System.Drawing.Point(398, 87);
+            this.TxtCargo.Location = new System.Drawing.Point(404, 36);
             this.TxtCargo.Name = "TxtCargo";
             this.TxtCargo.Size = new System.Drawing.Size(100, 20);
             this.TxtCargo.TabIndex = 5;
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(143, 196);
+            this.txtContraseña.Location = new System.Drawing.Point(273, 33);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(100, 20);
             this.txtContraseña.TabIndex = 6;
             // 
             // TxtUsuario
             // 
-            this.TxtUsuario.Location = new System.Drawing.Point(25, 196);
+            this.TxtUsuario.Location = new System.Drawing.Point(96, 32);
             this.TxtUsuario.Name = "TxtUsuario";
             this.TxtUsuario.Size = new System.Drawing.Size(100, 20);
             this.TxtUsuario.TabIndex = 7;
@@ -120,7 +124,7 @@ namespace FACTURACION_INVENTARIO
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 70);
+            this.label2.Location = new System.Drawing.Point(66, 19);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 8;
@@ -129,7 +133,7 @@ namespace FACTURACION_INVENTARIO
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(285, 71);
+            this.label4.Location = new System.Drawing.Point(291, 20);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 10;
@@ -138,7 +142,7 @@ namespace FACTURACION_INVENTARIO
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(414, 70);
+            this.label5.Location = new System.Drawing.Point(420, 19);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 11;
@@ -147,7 +151,7 @@ namespace FACTURACION_INVENTARIO
             // dateTimeFecha
             // 
             this.dateTimeFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimeFecha.Location = new System.Drawing.Point(298, 193);
+            this.dateTimeFecha.Location = new System.Drawing.Point(660, 29);
             this.dateTimeFecha.Name = "dateTimeFecha";
             this.dateTimeFecha.Size = new System.Drawing.Size(112, 20);
             this.dateTimeFecha.TabIndex = 12;
@@ -155,7 +159,7 @@ namespace FACTURACION_INVENTARIO
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(171, 70);
+            this.label3.Location = new System.Drawing.Point(177, 19);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 9;
@@ -164,7 +168,7 @@ namespace FACTURACION_INVENTARIO
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(33, 180);
+            this.label6.Location = new System.Drawing.Point(104, 16);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 13);
             this.label6.TabIndex = 13;
@@ -173,7 +177,7 @@ namespace FACTURACION_INVENTARIO
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(171, 180);
+            this.label7.Location = new System.Drawing.Point(301, 17);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 13);
             this.label7.TabIndex = 14;
@@ -182,7 +186,7 @@ namespace FACTURACION_INVENTARIO
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(495, 176);
+            this.label8.Location = new System.Drawing.Point(498, 13);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(23, 13);
             this.label8.TabIndex = 15;
@@ -246,7 +250,7 @@ namespace FACTURACION_INVENTARIO
             // 
             // txtNota
             // 
-            this.txtNota.Location = new System.Drawing.Point(552, 86);
+            this.txtNota.Location = new System.Drawing.Point(558, 35);
             this.txtNota.Name = "txtNota";
             this.txtNota.Size = new System.Drawing.Size(100, 20);
             this.txtNota.TabIndex = 40;
@@ -254,7 +258,7 @@ namespace FACTURACION_INVENTARIO
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(558, 70);
+            this.label9.Location = new System.Drawing.Point(564, 19);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(30, 13);
             this.label9.TabIndex = 41;
@@ -263,45 +267,69 @@ namespace FACTURACION_INVENTARIO
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(315, 177);
+            this.label10.Location = new System.Drawing.Point(677, 13);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(34, 13);
             this.label10.TabIndex = 42;
             this.label10.Text = "fecha";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.cmbRol);
+            this.groupBox1.Controls.Add(this.dateTimeFecha);
+            this.groupBox1.Controls.Add(this.txtContraseña);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.TxtUsuario);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Location = new System.Drawing.Point(35, 173);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(820, 68);
+            this.groupBox1.TabIndex = 43;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Usuario y Contraseña";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.txtNota);
+            this.groupBox2.Controls.Add(this.TxtnNombre);
+            this.groupBox2.Controls.Add(this.TxtApellido);
+            this.groupBox2.Controls.Add(this.txtTelefono);
+            this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Controls.Add(this.TxtCargo);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Location = new System.Drawing.Point(37, 78);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(723, 61);
+            this.groupBox2.TabIndex = 44;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Informacion del empleado";
             // 
             // FrmEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 573);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtNota);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnSeleccionar);
             this.Controls.Add(this.btnActulizar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dataGridViewEmpleado);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.dateTimeFecha);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.TxtUsuario);
-            this.Controls.Add(this.txtContraseña);
-            this.Controls.Add(this.TxtCargo);
-            this.Controls.Add(this.txtTelefono);
-            this.Controls.Add(this.TxtApellido);
-            this.Controls.Add(this.cmbRol);
-            this.Controls.Add(this.TxtnNombre);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmEmpleado";
             this.Text = "FrmEmpleado";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmpleado)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -333,5 +361,7 @@ namespace FACTURACION_INVENTARIO
         private System.Windows.Forms.TextBox txtNota;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
