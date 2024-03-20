@@ -21,6 +21,7 @@ namespace FACTURACION_INVENTARIO
             vistaproveedores();
         }
 
+
         private void vistaproveedores()
         {
 
@@ -188,6 +189,11 @@ namespace FACTURACION_INVENTARIO
             {
                 MessageBox.Show("Por favor, seleccione un proveedor para eliminar.", "Seleccione Proveedor", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void FrmProveedores_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

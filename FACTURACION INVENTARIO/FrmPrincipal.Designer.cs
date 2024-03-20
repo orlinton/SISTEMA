@@ -343,6 +343,7 @@ namespace FACTURACION_INVENTARIO
             this.btnCategoria.TabIndex = 20;
             this.btnCategoria.Text = "Categoria";
             this.btnCategoria.UseVisualStyleBackColor = false;
+            this.btnCategoria.Click += new System.EventHandler(this.btnCategoria_Click);
             // 
             // panel7
             // 
@@ -404,6 +405,7 @@ namespace FACTURACION_INVENTARIO
             this.btnEmpleado.TabIndex = 16;
             this.btnEmpleado.Text = "Empleado";
             this.btnEmpleado.UseVisualStyleBackColor = false;
+            this.btnEmpleado.Click += new System.EventHandler(this.btnEmpleado_Click);
             // 
             // panel5
             // 

@@ -158,5 +158,17 @@ namespace FACTURACION_INVENTARIO
             FrmProveedores frmproveedores = new FrmProveedores();
             AbrirFormInpanel(frmproveedores, PanelHijo);
         }
+
+        private void btnEmpleado_Click(object sender, EventArgs e)
+        {
+            FrmEmpleado frmEmpleado = new FrmEmpleado();
+            AbrirFormInpanel(frmEmpleado, PanelHijo);
+        }
+
+        private void btnCategoria_Click(object sender, EventArgs e)
+        {
+            FrmCategoria frmCategoria = new FrmCategoria();
+            AbrirFormInpanel(frmCategoria, PanelHijo);
+        }
     }
 }

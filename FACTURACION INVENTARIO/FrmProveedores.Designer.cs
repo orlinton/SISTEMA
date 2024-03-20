@@ -64,40 +64,40 @@ namespace FACTURACION_INVENTARIO
             this.dataGridViewProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewProveedores.Location = new System.Drawing.Point(36, 261);
             this.dataGridViewProveedores.Name = "dataGridViewProveedores";
-            this.dataGridViewProveedores.Size = new System.Drawing.Size(605, 146);
+            this.dataGridViewProveedores.Size = new System.Drawing.Size(752, 146);
             this.dataGridViewProveedores.TabIndex = 1;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(36, 205);
+            this.txtNombre.Location = new System.Drawing.Point(84, 94);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 2;
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(169, 205);
+            this.txtDireccion.Location = new System.Drawing.Point(217, 94);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(100, 20);
             this.txtDireccion.TabIndex = 3;
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(306, 205);
+            this.txtTelefono.Location = new System.Drawing.Point(354, 94);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(100, 20);
             this.txtTelefono.TabIndex = 4;
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Location = new System.Drawing.Point(422, 205);
+            this.txtCorreo.Location = new System.Drawing.Point(470, 94);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(100, 20);
             this.txtCorreo.TabIndex = 5;
             // 
             // txtNota
             // 
-            this.txtNota.Location = new System.Drawing.Point(553, 205);
+            this.txtNota.Location = new System.Drawing.Point(601, 94);
             this.txtNota.Name = "txtNota";
             this.txtNota.Size = new System.Drawing.Size(100, 20);
             this.txtNota.TabIndex = 6;
@@ -105,7 +105,7 @@ namespace FACTURACION_INVENTARIO
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(70, 189);
+            this.label2.Location = new System.Drawing.Point(118, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 7;
@@ -114,7 +114,7 @@ namespace FACTURACION_INVENTARIO
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(187, 189);
+            this.label3.Location = new System.Drawing.Point(235, 78);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 8;
@@ -123,7 +123,7 @@ namespace FACTURACION_INVENTARIO
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(329, 189);
+            this.label4.Location = new System.Drawing.Point(377, 78);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 9;
@@ -132,7 +132,7 @@ namespace FACTURACION_INVENTARIO
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(448, 189);
+            this.label6.Location = new System.Drawing.Point(496, 78);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 13);
             this.label6.TabIndex = 10;
@@ -141,7 +141,7 @@ namespace FACTURACION_INVENTARIO
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(592, 189);
+            this.label7.Location = new System.Drawing.Point(640, 78);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(30, 13);
             this.label7.TabIndex = 11;
@@ -151,7 +151,7 @@ namespace FACTURACION_INVENTARIO
             // 
             this.btnSeleccionar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSeleccionar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeleccionar.Location = new System.Drawing.Point(665, 186);
+            this.btnSeleccionar.Location = new System.Drawing.Point(354, 199);
             this.btnSeleccionar.Name = "btnSeleccionar";
             this.btnSeleccionar.Size = new System.Drawing.Size(114, 32);
             this.btnSeleccionar.TabIndex = 43;
@@ -163,7 +163,7 @@ namespace FACTURACION_INVENTARIO
             // 
             this.btnActulizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnActulizar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActulizar.Location = new System.Drawing.Point(665, 384);
+            this.btnActulizar.Location = new System.Drawing.Point(84, 199);
             this.btnActulizar.Name = "btnActulizar";
             this.btnActulizar.Size = new System.Drawing.Size(102, 32);
             this.btnActulizar.TabIndex = 42;
@@ -175,7 +175,7 @@ namespace FACTURACION_INVENTARIO
             // 
             this.btnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(665, 316);
+            this.btnEliminar.Location = new System.Drawing.Point(215, 199);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(102, 32);
             this.btnEliminar.TabIndex = 41;
@@ -187,7 +187,7 @@ namespace FACTURACION_INVENTARIO
             // 
             this.btnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAgregar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(665, 245);
+            this.btnAgregar.Location = new System.Drawing.Point(499, 199);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(102, 32);
             this.btnAgregar.TabIndex = 40;
@@ -216,8 +216,10 @@ namespace FACTURACION_INVENTARIO
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.dataGridViewProveedores);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmProveedores";
             this.Text = "FrmProveedores";
+            this.Load += new System.EventHandler(this.FrmProveedores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProveedores)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
