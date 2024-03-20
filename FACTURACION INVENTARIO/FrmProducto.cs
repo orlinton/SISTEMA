@@ -299,5 +299,10 @@ namespace FACTURACION_INVENTARIO
                 MessageBox.Show($"El valor {value} no se encuentra en la lista del ComboBox.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void dtpFechaIngreso_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
