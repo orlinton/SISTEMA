@@ -58,7 +58,6 @@ namespace FACTURACION_INVENTARIO
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnProducto = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
@@ -521,20 +520,6 @@ namespace FACTURACION_INVENTARIO
             this.btnProducto.UseVisualStyleBackColor = false;
             this.btnProducto.Click += new System.EventHandler(this.btnProducto_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(503, 7);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(283, 33);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Pulperia 15 de Mayo";
-            // 
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -545,7 +530,6 @@ namespace FACTURACION_INVENTARIO
             this.panel2.Controls.Add(this.btnMinimizar);
             this.panel2.Controls.Add(this.btnMaximizar);
             this.panel2.Controls.Add(this.btnCerrar);
-            this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(300, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
@@ -666,7 +650,6 @@ namespace FACTURACION_INVENTARIO
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnProducto;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox btnCerrar;

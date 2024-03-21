@@ -79,11 +79,11 @@ namespace FACTURACION_INVENTARIO
             // 
             this.dataGridViewProducto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewProducto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewProducto.Location = new System.Drawing.Point(5, 338);
+            this.dataGridViewProducto.Location = new System.Drawing.Point(29, 344);
             this.dataGridViewProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewProducto.Name = "dataGridViewProducto";
             this.dataGridViewProducto.RowHeadersWidth = 51;
-            this.dataGridViewProducto.Size = new System.Drawing.Size(1173, 294);
+            this.dataGridViewProducto.Size = new System.Drawing.Size(1282, 326);
             this.dataGridViewProducto.TabIndex = 2;
             // 
             // btnAgregar
@@ -92,7 +92,7 @@ namespace FACTURACION_INVENTARIO
             this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.btnAgregar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
-            this.btnAgregar.Location = new System.Drawing.Point(765, 699);
+            this.btnAgregar.Location = new System.Drawing.Point(887, 711);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(136, 39);
@@ -107,7 +107,7 @@ namespace FACTURACION_INVENTARIO
             this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.Color.White;
-            this.btnEliminar.Location = new System.Drawing.Point(909, 699);
+            this.btnEliminar.Location = new System.Drawing.Point(1031, 711);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(136, 39);
@@ -122,7 +122,7 @@ namespace FACTURACION_INVENTARIO
             this.btnActulizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.btnActulizar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActulizar.ForeColor = System.Drawing.Color.White;
-            this.btnActulizar.Location = new System.Drawing.Point(1053, 699);
+            this.btnActulizar.Location = new System.Drawing.Point(1175, 711);
             this.btnActulizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnActulizar.Name = "btnActulizar";
             this.btnActulizar.Size = new System.Drawing.Size(136, 39);
@@ -137,7 +137,7 @@ namespace FACTURACION_INVENTARIO
             this.btnSeleccionar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.btnSeleccionar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeleccionar.ForeColor = System.Drawing.Color.White;
-            this.btnSeleccionar.Location = new System.Drawing.Point(605, 699);
+            this.btnSeleccionar.Location = new System.Drawing.Point(727, 711);
             this.btnSeleccionar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSeleccionar.Name = "btnSeleccionar";
             this.btnSeleccionar.Size = new System.Drawing.Size(152, 39);
@@ -160,11 +160,11 @@ namespace FACTURACION_INVENTARIO
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(29, 203);
+            this.groupBox2.Location = new System.Drawing.Point(29, 209);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox2.Size = new System.Drawing.Size(1149, 116);
+            this.groupBox2.Size = new System.Drawing.Size(1282, 116);
             this.groupBox2.TabIndex = 34;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos del producto";
@@ -217,7 +217,7 @@ namespace FACTURACION_INVENTARIO
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(764, 25);
+            this.label12.Location = new System.Drawing.Point(853, 25);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(151, 22);
@@ -265,11 +265,11 @@ namespace FACTURACION_INVENTARIO
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(29, 55);
+            this.groupBox1.Location = new System.Drawing.Point(29, 61);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(1149, 138);
+            this.groupBox1.Size = new System.Drawing.Size(1282, 138);
             this.groupBox1.TabIndex = 33;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Informacion del producto";
@@ -295,7 +295,7 @@ namespace FACTURACION_INVENTARIO
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(183, 48);
+            this.label7.Location = new System.Drawing.Point(220, 48);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(97, 22);
@@ -305,16 +305,16 @@ namespace FACTURACION_INVENTARIO
             // dtpFechaCaducidad
             // 
             this.dtpFechaCaducidad.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaCaducidad.Location = new System.Drawing.Point(967, 76);
+            this.dtpFechaCaducidad.Location = new System.Drawing.Point(1105, 76);
             this.dtpFechaCaducidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpFechaCaducidad.Name = "dtpFechaCaducidad";
-            this.dtpFechaCaducidad.Size = new System.Drawing.Size(125, 28);
+            this.dtpFechaCaducidad.Size = new System.Drawing.Size(137, 28);
             this.dtpFechaCaducidad.TabIndex = 30;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(341, 50);
+            this.label6.Location = new System.Drawing.Point(390, 48);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(102, 22);
@@ -324,27 +324,27 @@ namespace FACTURACION_INVENTARIO
             // dtpFechaIngreso
             // 
             this.dtpFechaIngreso.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaIngreso.Location = new System.Drawing.Point(817, 76);
+            this.dtpFechaIngreso.Location = new System.Drawing.Point(909, 76);
             this.dtpFechaIngreso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpFechaIngreso.Name = "dtpFechaIngreso";
-            this.dtpFechaIngreso.Size = new System.Drawing.Size(125, 28);
+            this.dtpFechaIngreso.Size = new System.Drawing.Size(139, 28);
             this.dtpFechaIngreso.TabIndex = 29;
             this.dtpFechaIngreso.ValueChanged += new System.EventHandler(this.dtpFechaIngreso_ValueChanged);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(635, 50);
+            this.label11.Location = new System.Drawing.Point(721, 50);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(169, 22);
+            this.label11.Size = new System.Drawing.Size(138, 22);
             this.label11.TabIndex = 22;
-            this.label11.Text = "Nota del producto";
+            this.label11.Text = "Nota Producto";
             // 
             // CmbCategoria
             // 
             this.CmbCategoria.FormattingEnabled = true;
-            this.CmbCategoria.Location = new System.Drawing.Point(187, 75);
+            this.CmbCategoria.Location = new System.Drawing.Point(203, 74);
             this.CmbCategoria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CmbCategoria.Name = "CmbCategoria";
             this.CmbCategoria.Size = new System.Drawing.Size(132, 30);
@@ -353,7 +353,7 @@ namespace FACTURACION_INVENTARIO
             // CmbProveedores
             // 
             this.CmbProveedores.FormattingEnabled = true;
-            this.CmbProveedores.Location = new System.Drawing.Point(332, 76);
+            this.CmbProveedores.Location = new System.Drawing.Point(375, 76);
             this.CmbProveedores.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CmbProveedores.Name = "CmbProveedores";
             this.CmbProveedores.Size = new System.Drawing.Size(132, 30);
@@ -361,7 +361,7 @@ namespace FACTURACION_INVENTARIO
             // 
             // txtNota
             // 
-            this.txtNota.Location = new System.Drawing.Point(639, 76);
+            this.txtNota.Location = new System.Drawing.Point(725, 76);
             this.txtNota.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNota.Name = "txtNota";
             this.txtNota.Size = new System.Drawing.Size(132, 28);
@@ -369,7 +369,7 @@ namespace FACTURACION_INVENTARIO
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(485, 76);
+            this.txtDescripcion.Location = new System.Drawing.Point(548, 76);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(132, 28);
@@ -378,7 +378,7 @@ namespace FACTURACION_INVENTARIO
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(481, 48);
+            this.label3.Location = new System.Drawing.Point(556, 48);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 22);
@@ -388,17 +388,17 @@ namespace FACTURACION_INVENTARIO
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(813, 50);
+            this.label8.Location = new System.Drawing.Point(905, 50);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(143, 22);
             this.label8.TabIndex = 19;
-            this.label8.Text = "Fecha ingreso ";
+            this.label8.Text = "Fecha Ingreso ";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(963, 52);
+            this.label9.Location = new System.Drawing.Point(1078, 52);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(180, 22);
@@ -418,7 +418,7 @@ namespace FACTURACION_INVENTARIO
             this.panel2.Location = new System.Drawing.Point(-5, 2);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1199, 38);
+            this.panel2.Size = new System.Drawing.Size(1332, 38);
             this.panel2.TabIndex = 36;
             // 
             // btnRestaurar
@@ -426,7 +426,7 @@ namespace FACTURACION_INVENTARIO
             this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
-            this.btnRestaurar.Location = new System.Drawing.Point(1131, 7);
+            this.btnRestaurar.Location = new System.Drawing.Point(1264, 7);
             this.btnRestaurar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(25, 25);
@@ -440,7 +440,7 @@ namespace FACTURACION_INVENTARIO
             this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(1100, 7);
+            this.btnMinimizar.Location = new System.Drawing.Point(1233, 7);
             this.btnMinimizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(25, 25);
@@ -453,7 +453,7 @@ namespace FACTURACION_INVENTARIO
             this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
-            this.btnMaximizar.Location = new System.Drawing.Point(1131, 7);
+            this.btnMaximizar.Location = new System.Drawing.Point(1264, 7);
             this.btnMaximizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(25, 25);
@@ -466,7 +466,7 @@ namespace FACTURACION_INVENTARIO
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(1162, 7);
+            this.btnCerrar.Location = new System.Drawing.Point(1295, 7);
             this.btnCerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(25, 25);
@@ -494,7 +494,7 @@ namespace FACTURACION_INVENTARIO
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.ClientSize = new System.Drawing.Size(1195, 753);
+            this.ClientSize = new System.Drawing.Size(1328, 765);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnSeleccionar);
             this.Controls.Add(this.groupBox2);
