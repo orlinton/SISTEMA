@@ -9,7 +9,7 @@ namespace CapaDatos
 {
     public class CD_Usuario
     {
-        private string cadenaConexion = "Data Source=JORGESAAVEDRA\\SQLSERVER;Initial Catalog=BDventa;User ID=PC;Password=password;";
+        private string cadenaConexion = "Data Source=DESKTOP-JOJRB03\\SQLEXPRESS;Initial Catalog=BDventa;User ID=PC;Password=password;";
 
         public bool AutenticarUsuario(string nombreUsuario, string contraseña)
         {

@@ -55,12 +55,12 @@ namespace CapaDatos
         }
 
 
-        public void InsertarProductos(string nombre, string descripcion, decimal precio, int cantidad, int proveedores, int categoria, DateTime fechaIngreso, DateTime fechaCaducidad, string unidadMedida, string nota, string codigo)
+        public void InsertarProductos(string nombre, string descripcion, decimal precio, int cantidad, int proveedores, int categoria, DateTime fechaIngreso, DateTime fechaCaducidad, string unidadMedida, string nota, string codigo, string ubicacion) 
         {
             try
             {
                 Comando.Connection = Conexion.AbrirConexion();
-                Comando.CommandText = "AgregarProducto";
+                Comando.CommandText = "InsertarProducto";
                 Comando.CommandType = CommandType.StoredProcedure;
 
                 Comando.Parameters.AddWithValue("@nombre", nombre);
@@ -74,6 +74,8 @@ namespace CapaDatos
                 Comando.Parameters.AddWithValue("@unidad_medida", unidadMedida);
                 Comando.Parameters.AddWithValue("@nota", nota);
                 Comando.Parameters.AddWithValue("@codigo", codigo);
+                Comando.Parameters.AddWithValue("@ubicacion", ubicacion);
+
 
                 Comando.ExecuteNonQuery();
             }
@@ -113,7 +115,7 @@ namespace CapaDatos
             }
         }
 
-        public void Actualizar_Producto(int IdProducto, string nombre, string descripcion, decimal precio, int cantidad, int proveedores, int categoria, DateTime fechaIngreso, DateTime fechaCaducidad, string unidadMedida, string nota, string codigo)
+        public void Actualizar_Producto(int IdProducto, string nombre, string descripcion, decimal precio, int cantidad, int proveedores, int categoria, DateTime fechaIngreso, DateTime fechaCaducidad, string unidadMedida, string nota, string codigo, string ubicacion)
         {
             try
             {
@@ -132,6 +134,7 @@ namespace CapaDatos
                 Comando.Parameters.AddWithValue("@unidad_medida", unidadMedida);
                 Comando.Parameters.AddWithValue("@nota", nota);
                 Comando.Parameters.AddWithValue("@codigo", codigo);
+                Comando.Parameters.AddWithValue("@ubicacion", ubicacion);
 
                 Comando.ExecuteNonQuery();
             }

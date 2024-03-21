@@ -27,49 +27,49 @@ namespace CapaDatos
             Conexion.CerrarConexion();
             return Tabla;
         }
-
-        public int RealizarVenta(int idCliente, int idEmpleado, int idProducto, int cantidad, decimal precioUnitario, string nota)
+        public void InsertarVentaCompleta( int idCliente, int idEmpleado, DateTime fecha, string factura, decimal iva,  int idProducto, int cantidad, decimal precioUnitario,string descuento )
         {
             try
             {
-                Comando.Connection = Conexion.AbrirConexion();
-                Comando.CommandText = "RealizarVenta";
+                // Abrir la conexión
+                SqlConnection connection = Conexion.AbrirConexion();
+
+                // Configurar el comando para llamar al procedimiento almacenado
+                Comando.Connection = connection;
+                Comando.CommandText = "RegistrarVenta";
                 Comando.CommandType = CommandType.StoredProcedure;
 
-                // Definir parámetros del procedimiento almacenado
-                Comando.Parameters.AddWithValue("@idCliente", idCliente);
-                Comando.Parameters.AddWithValue("@idEmpleado", idEmpleado);
-                Comando.Parameters.AddWithValue("@idProducto", idProducto);
-                Comando.Parameters.AddWithValue("@cantidad", cantidad);
-                Comando.Parameters.AddWithValue("@precioUnitario", precioUnitario);
-                Comando.Parameters.AddWithValue("@nota", nota);
+                // Agregar parámetros al comando
+                Comando.Parameters.AddWithValue("@id_cliente", idCliente);
+                Comando.Parameters.AddWithValue("@id_empleado", idEmpleado);
+                Comando.Parameters.AddWithValue("@fecha", fecha);
+                Comando.Parameters.AddWithValue("@tipo_Comprovante", factura); 
+                Comando.Parameters.AddWithValue("@iva", iva); 
 
-                // Agregar parámetro de retorno para obtener el ID de la venta
-                SqlParameter idVentaParam = new SqlParameter("@idVenta", SqlDbType.Int);
-                idVentaParam.Direction = ParameterDirection.Output;
-                Comando.Parameters.Add(idVentaParam);
+                Comando.Parameters.AddWithValue("@id_producto", idProducto);
+                Comando.Parameters.AddWithValue("@cantidad", cantidad);
+                Comando.Parameters.AddWithValue("@precio_venta", precioUnitario);
+                Comando.Parameters.AddWithValue("@descuento", descuento); 
+               
 
                 // Ejecutar el comando
                 Comando.ExecuteNonQuery();
 
-                // Obtener el ID de la venta generada
-                int idVenta = Convert.ToInt32(idVentaParam.Value);
-
+                // Cerrar la conexión
                 Conexion.CerrarConexion();
-
-                // Retornar el ID de la venta
-                return idVenta;
             }
             catch (Exception ex)
             {
-                // Manejar cualquier excepción y retornar un valor predeterminado (por ejemplo, -1) o lanzar la excepción
-                throw ex;
+                // Manejar cualquier excepción
+                Console.WriteLine("Error al insertar la venta completa: " + ex.Message);
             }
             finally
             {
-                // Asegurarse de cerrar la conexión
+                // Limpiar los parámetros y cerrar la conexión
+                Comando.Parameters.Clear();
                 Conexion.CerrarConexion();
             }
         }
     }
+
 }
