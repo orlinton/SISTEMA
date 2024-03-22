@@ -15,7 +15,7 @@ namespace CapaNegocio
         public void InsertarProducto(CE_Producto producto)
         {
             // Aquí podrías agregar lógica adicional, como validaciones, antes de insertar el producto en la base de datos
-            cdProducto.InsertarProductos(producto.Nombre, producto.Descripcion, producto.Precio, producto.Cantidad, producto.Proveedor, producto.Categoria, producto.FechaIngreso, producto.FechaCaducidad, producto.UnidadMedida, producto.Nota, producto.Codigo , producto.Ubicacion);
+            cdProducto.InsertarProductos(producto.Nombre, producto.Descripcion, producto.Precio, producto.Cantidad, producto.Proveedor, producto.Categoria, producto.FechaIngreso, producto.FechaCaducidad, producto.UnidadMedida, producto.Nota, producto.Codigo);
         }
 
         public void EliminarProducto(int IdProducto)
@@ -26,24 +26,10 @@ namespace CapaNegocio
 
         public void Actualizar_Producto(CE_Producto producto)
         {
-            // Aquí podrías agregar lógica adicional, como validaciones, antes de actualizar el producto en la base de datos
-            cdProducto.Actualizar_Producto(
-                producto.IdProducto,
-                producto.Nombre,
-                producto.Descripcion,
-                producto.Precio,
-                producto.Cantidad,
-                producto.Proveedor,
-                producto.Categoria,
-                producto.FechaIngreso,
-                producto.FechaCaducidad,
-                producto.UnidadMedida,
-                producto.Nota,
-                producto.Codigo,
-                producto.Ubicacion 
-            );
-        }
 
+            // Aquí podrías agregar lógica adicional, como validaciones, antes de actualizar el producto en la base de datos
+            cdProducto.Actualizar_Producto(producto.IdProducto, producto.Nombre, producto.Descripcion, producto.Precio, producto.Cantidad, producto.Proveedor, producto.Categoria, producto.FechaIngreso, producto.FechaCaducidad, producto.UnidadMedida, producto.Nota, producto.Codigo);
+        }
     }
 }
 

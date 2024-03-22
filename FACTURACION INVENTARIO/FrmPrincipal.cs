@@ -25,9 +25,9 @@ namespace FACTURACION_INVENTARIO
             if (idRol == 2) // Si el ID de rol es 2 (por ejemplo, un usuario normal)
             {
                 btnCliente.Enabled = false;
-                btnProveedores.Enabled = false;
+                btnCompra.Enabled = false;
                 btnEmpleado.Enabled = false;
-               
+                btnInventario.Enabled = false;
                 btnCategoria.Enabled = false;
                 btnReportes.Enabled = false;              
             }
@@ -135,40 +135,13 @@ namespace FACTURACION_INVENTARIO
 
         private void btnVenta_Click(object sender, EventArgs e)
         {
-            FrmVenta frmVenta = new FrmVenta();
-            AbrirFormInpanel(frmVenta, PanelHijo);
+            FrmVenta frmProducto = new FrmVenta();
+            AbrirFormInpanel(frmProducto, PanelHijo);
         }
 
-
-
-        private void btnInventario_Click(object sender, EventArgs e)
+        private void btnCompra_Click(object sender, EventArgs e)
         {
-            FrmInventario frmInventario = new FrmInventario();
-            AbrirFormInpanel(frmInventario, PanelHijo);
-        }
-
-        private void btnCliente_Click(object sender, EventArgs e)
-        {
-            FrmCliente frmCliente = new FrmCliente();
-            AbrirFormInpanel(frmCliente, PanelHijo);
-        }
-
-        private void btnProveedores_Click(object sender, EventArgs e)
-        {
-            FrmProveedores frmproveedores = new FrmProveedores();
-            AbrirFormInpanel(frmproveedores, PanelHijo);
-        }
-
-        private void btnEmpleado_Click(object sender, EventArgs e)
-        {
-            FrmEmpleado frmEmpleado = new FrmEmpleado();
-            AbrirFormInpanel(frmEmpleado, PanelHijo);
-        }
-
-        private void btnCategoria_Click(object sender, EventArgs e)
-        {
-            FrmCategoria frmCategoria = new FrmCategoria();
-            AbrirFormInpanel(frmCategoria, PanelHijo);
+         
         }
     }
 }

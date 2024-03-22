@@ -26,3 +26,14 @@ E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\Cap
 E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.dll
 E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\saave\Source\Repos\SISTEMA\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\saave\Source\Repos\SISTEMA\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\saave\Source\Repos\SISTEMA\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\saave\Source\Repos\SISTEMA\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\saave\Source\Repos\SISTEMA\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\saave\Source\Repos\SISTEMA\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\saave\Source\Repos\SISTEMA\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\saave\Source\Repos\SISTEMA\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\saave\Source\Repos\SISTEMA\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\saave\Source\Repos\SISTEMA\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\saave\Source\Repos\SISTEMA\CapaNegocio\obj\Debug\CapaNegocio.pdb

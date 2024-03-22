@@ -76,7 +76,6 @@ namespace FACTURACION_INVENTARIO
                 string.IsNullOrWhiteSpace(txtUnidadMedida.Text) ||
                 string.IsNullOrWhiteSpace(txtNota.Text) ||
                 string.IsNullOrWhiteSpace(txtCodigo.Text) ||
-                string.IsNullOrWhiteSpace(txtUbicacion.Text) ||
                 CmbProveedores.SelectedIndex == -1 ||
                 CmbCategoria.SelectedIndex == -1)
             {
@@ -99,8 +98,7 @@ namespace FACTURACION_INVENTARIO
                 FechaCaducidad = dtpFechaCaducidad.Value,
                 UnidadMedida = txtUnidadMedida.Text,
                 Nota = txtNota.Text,
-                Codigo = txtCodigo.Text,
-                Ubicacion = txtUbicacion.Text,
+                Codigo = txtCodigo.Text
             };
 
             // Llamar al método InsertarProducto de la capa de negocios para agregar el nuevo producto
@@ -121,7 +119,6 @@ namespace FACTURACION_INVENTARIO
             txtNota.Text = "";
             txtCantidad.Text = "";
             txtCodigo.Text = "";
-            txtUbicacion.Text = "";
             // Limpiar otros controles si es necesario
         }
 
@@ -195,7 +192,7 @@ namespace FACTURACION_INVENTARIO
             int idProducto = Convert.ToInt32(dataGridViewProducto.SelectedRows[0].Cells["IdProducto"].Value);
 
             // Verificar que los campos obligatorios estén completos
-            if (string.IsNullOrWhiteSpace(txtproducto.Text) || string.IsNullOrWhiteSpace(txtDescripcion.Text) || string.IsNullOrWhiteSpace(txtPrecio.Text) || string.IsNullOrWhiteSpace(txtCantidad.Text ))
+            if (string.IsNullOrWhiteSpace(txtproducto.Text) || string.IsNullOrWhiteSpace(txtDescripcion.Text) || string.IsNullOrWhiteSpace(txtPrecio.Text) || string.IsNullOrWhiteSpace(txtCantidad.Text))
             {
                 MessageBox.Show("Todos los campos obligatorios deben completarse.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -213,7 +210,6 @@ namespace FACTURACION_INVENTARIO
             string unidadMedida = txtUnidadMedida.Text;
             string nota = txtNota.Text;
             string codigo = txtCodigo.Text;
-            string ubicacion = txtUbicacion.Text;
 
             // Crear un objeto CE_Producto con los datos actualizados
             CE_Producto productoActualizado = new CE_Producto
@@ -229,8 +225,7 @@ namespace FACTURACION_INVENTARIO
                 FechaCaducidad = fechaCaducidad,
                 UnidadMedida = unidadMedida,
                 Nota = nota,
-                Codigo = codigo,
-                Ubicacion = ubicacion
+                Codigo = codigo
             };
 
             // Instanciar la clase CN_Producto
@@ -265,7 +260,6 @@ namespace FACTURACION_INVENTARIO
                 txtUnidadMedida.Text = row.Cells[9].Value.ToString();
                 txtNota.Text = row.Cells[10].Value.ToString();
                 txtCodigo.Text = row.Cells[11].Value.ToString();
-                txtUbicacion.Text = row.Cells[12].Value.ToString();
 
 
 
@@ -304,6 +298,11 @@ namespace FACTURACION_INVENTARIO
                 // Puedes mostrar un mensaje, establecer un valor predeterminado, etc.
                 MessageBox.Show($"El valor {value} no se encuentra en la lista del ComboBox.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void dtpFechaIngreso_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
