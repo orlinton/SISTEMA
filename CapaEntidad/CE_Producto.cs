@@ -20,5 +20,6 @@ namespace CapaEntidad
         public string UnidadMedida { get; set; }
         public string Nota { get; set; }
         public string Codigo { get; set; }
+        public string Ubicacion { get; set; }
     }
 }
