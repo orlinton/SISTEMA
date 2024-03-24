@@ -11,7 +11,6 @@ E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaEntidad\obj\De
 E:\Sistema de Facturacion e Inventario\FACTURACION INVENTARIO\CapaEntidad\obj\Debug\CapaEntidad.pdb
 E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaEntidad\bin\Debug\CapaEntidad.dll
 E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaEntidad\bin\Debug\CapaEntidad.pdb
-E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
 E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaEntidad\obj\Debug\CapaEntidad.dll
 E:\Sistema de Facturacion Tesis\FACTURACION INVENTARIO\CapaEntidad\obj\Debug\CapaEntidad.pdb

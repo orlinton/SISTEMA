@@ -164,64 +164,47 @@ namespace FACTURACION_INVENTARIO
 
         }
 
-       
+
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            // Obtener los datos del producto desde los controles
+            int idProducto = Convert.ToInt32(txtIdProducto.Text);
+            string nombreProducto = txtproducto.Text;
+            int cantidad = Convert.ToInt32(txtCantidadVenta.Text);
+            decimal precioUnitario = Convert.ToDecimal(txtPrecioVenta.Text);
 
+
+            // Agregar una nueva fila al DataGridView
+            dataGridView1.Rows.Add(idProducto, nombreProducto, cantidad, precioUnitario);
         }
 
         private void btnCrearVenta_Click(object sender, EventArgs e)
         {
             try
             {
-                // Obtener los datos del formulario
-                int idCliente = Convert.ToInt32(cmbCliente.SelectedValue);
-                int idEmpleado = int.Parse(txtEmpleado.Text);
-                DateTime fecha = DateTime.Now; // Se utiliza la fecha actual
-                string tipoComprobante = txtcomprovante.Text;
-                decimal iva = 0.16m; // Supongamos que el IVA es fijo en 16%
-                int idProducto = int.Parse(txtIdProducto.Text);
-                int cantidad = int.Parse(txtCantidadVenta.Text);
-                decimal precioVenta = ObtenerPrecioProducto(idProducto); // Método para obtener el precio del producto
-                decimal descuento = int.Parse(txtdescuento.Text); ; // No hay descuento por defecto
+                // Obtener los datos del producto desde el DataGridView
+                int idProducto = Convert.ToInt32(dataGridView1.CurrentRow.Cells["id_producto"].Value);
+                string nombreProducto = Convert.ToString(dataGridView1.CurrentRow.Cells["nombre_producto"].Value);
+                int cantidad = Convert.ToInt32(dataGridView1.CurrentRow.Cells["cantidad"].Value);
+                decimal precioUnitario = Convert.ToDecimal(dataGridView1.CurrentRow.Cells["precio_venta"].Value);
 
-                // Crear objeto CE_Venta con los datos obtenidos
-                CE_Venta venta = new CE_Venta()
-                {
-                    IdCliente = idCliente,
-                    IdEmpleado = idEmpleado,
-                    Fecha = fecha,
-                    TipoComprobante = tipoComprobante,
-                    Iva = iva,
-                    IdProducto = idProducto,
-                    Cantidad = cantidad,
-                    PrecioVenta = precioVenta,
-                    Descuento = descuento
-                };
+                // Agregar una nueva fila al DataGridView de la venta
+                dataGridView1.Rows.Add(idProducto, nombreProducto, cantidad, precioUnitario);
 
-                // Insertar la venta completa utilizando la capa de negocio
-                CN_Venta capaNegocioVenta = new CN_Venta();
-                capaNegocioVenta.InsertarVentaCompleta(venta);
-
-                // Mostrar mensaje de éxito
-                MessageBox.Show("Venta creada correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //// Calcular el total de la venta
+                //CalcularTotalVenta();
             }
             catch (Exception ex)
             {
-                // Manejo de excepciones
-                MessageBox.Show("Error al crear venta: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error al agregar producto a la venta: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        // Método para obtener el precio del producto (debes implementarlo según la lógica de tu aplicación)
-        private decimal ObtenerPrecioProducto(int idProducto)
-        {
-            // Aquí debes implementar la lógica para obtener el precio del producto según su ID
-            // Por ejemplo, podrías llamar a un método en la capa de datos para obtener el precio desde la base de datos
-            // Por simplicidad, aquí solo se devuelve un valor fijo de 100 para fines de demostración
-            return 100;
-        }
+        //private decimal CalcularTotalVenta()
+        //{
+     
+        //}
     }
 }
 

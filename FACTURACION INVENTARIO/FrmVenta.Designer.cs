@@ -70,11 +70,17 @@ namespace FACTURACION_INVENTARIO
             this.label7 = new System.Windows.Forms.Label();
             this.txtdescuento = new System.Windows.Forms.TextBox();
             this.dETALLE_VENTATableAdapter = new FACTURACION_INVENTARIO.BDVENTADataSetTableAdapters.DETALLE_VENTATableAdapter();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.id_producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombre_producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.precio_venta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dETALLEVENTABindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bDVENTADataSet)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -434,11 +440,45 @@ namespace FACTURACION_INVENTARIO
             // 
             this.dETALLE_VENTATableAdapter.ClearBeforeFill = true;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.id_producto,
+            this.nombre_producto,
+            this.cantidad,
+            this.precio_venta});
+            this.dataGridView1.Location = new System.Drawing.Point(119, 477);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(605, 103);
+            this.dataGridView1.TabIndex = 37;
+            // 
+            // id_producto
+            // 
+            this.id_producto.HeaderText = "id_producto";
+            this.id_producto.Name = "id_producto";
+            // 
+            // nombre_producto
+            // 
+            this.nombre_producto.HeaderText = "nombre_producto";
+            this.nombre_producto.Name = "nombre_producto";
+            // 
+            // cantidad
+            // 
+            this.cantidad.HeaderText = "cantidad";
+            this.cantidad.Name = "cantidad";
+            // 
+            // precio_venta
+            // 
+            this.precio_venta.HeaderText = "precio_venta";
+            this.precio_venta.Name = "precio_venta";
+            // 
             // FrmVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(896, 612);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtdescuento);
             this.Controls.Add(this.label3);
@@ -468,6 +508,7 @@ namespace FACTURACION_INVENTARIO
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -515,5 +556,10 @@ namespace FACTURACION_INVENTARIO
         private BDVENTADataSet bDVENTADataSet;
         private System.Windows.Forms.BindingSource dETALLEVENTABindingSource;
         private BDVENTADataSetTableAdapters.DETALLE_VENTATableAdapter dETALLE_VENTATableAdapter;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id_producto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre_producto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cantidad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn precio_venta;
     }
 }
